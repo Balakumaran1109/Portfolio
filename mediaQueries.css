@@ -81,7 +81,7 @@
   .logo {
     font-size: 1.5rem;
   }
-  
+
   .section_pic_container {
     width: auto;
     height: 46vw;
@@ -96,4 +96,10 @@
   .text_container {
     text-align: justify;
   }
+
+  /* .project_details_container .about_containers {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+  } */
 }

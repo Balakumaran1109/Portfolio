@@ -176,12 +176,11 @@ section {
   margin-top: 4rem;
 }
 
-.section_pic_container img{
+.section_pic_container img {
   height: 90%;
   width: 90%;
   border-radius: 50px 20px;
   object-fit: cover;
-
 }
 
 .section_text {
@@ -316,7 +315,6 @@ section {
   height: 80%;
 }
 
-
 /* EXPERIENCE SECTION*/
 
 #experience {
@@ -344,13 +342,14 @@ section {
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
-  justify-content: space-around;
+  justify-content: flex-start;
+  margin-left: 30px;
 }
 
 article {
   display: flex;
   width: 10rem;
-  justify-content:flex-start;
+  justify-content: flex-start;
   gap: 0.5rem;
 }
 
@@ -375,7 +374,6 @@ article .icon {
   height: 90%;
 }
 
-
 .project_img_2 {
   border-radius: 2rem;
   width: 90%;
@@ -383,21 +381,24 @@ article .icon {
   border: 1px solid;
 }
 
-
 .project_title {
-  font-size:larger !important;
+  font-size: larger !important;
   margin: 1rem;
-  color: black;
+  /* color: black; */
 }
 
-.project_details_container .about_containers{
+.project_details_container .about_containers {
   display: flex;
   gap: 8rem;
-  margin-left: 8rem;
+  margin-left: 4rem;
   margin-top: 50px;
-  max-width:  500px;
+  max-width: 90%;
   height: 450px;
+  /* background-color: black; */
+
 }
+
+
 
 /* CONTACT */
 
@@ -444,17 +445,13 @@ article .icon {
 
 footer {
   height: 26vh;
-
-
 }
 
 footer p {
   text-align: center;
 }
 
-.footer_copyrights{
+.footer_copyrights {
   margin-top: 10rem;
-  padding-bottom: 2rem ;
-
-
+  padding-bottom: 2rem;
 }
