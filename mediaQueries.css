@@ -3,9 +3,7 @@
     height: 83vh;
     margin-bottom: 6rem;
   }
-  /* .about_containers {
-    flex-wrap: wrap;
-  } */
+
   #contact,
   #projects {
     height: fit-content;
@@ -19,8 +17,8 @@
   #hamburger_nav {
     display: flex;
   }
-  #experience,
-  .experience_details_container {
+  #skills,
+  .skills_details_container {
     margin-top: 2rem;
   }
   #profile,
@@ -75,7 +73,7 @@
   .nav_links li a {
     font-size: 1rem;
   }
-  .experience_sub_title {
+  .skills_sub_title {
     font-size: 1.25rem;
   }
   .logo {
@@ -84,7 +82,7 @@
 
   .section_pic_container {
     width: auto;
-    height: 46vw;
+    height: 30vh;
     justify-content: center;
   }
   .section_text_p2 {
@@ -96,10 +94,4 @@
   .text_container {
     text-align: justify;
   }
-
-  /* .project_details_container .about_containers {
-    display: flex;
-    justify-content: center;
-    background-color: black;
-  } */
 }
